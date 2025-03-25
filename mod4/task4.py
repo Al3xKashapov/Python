@@ -7,9 +7,9 @@ def palindrom(word):
     j = 0
 
     d = 0
-    
+
     if w.count(w[i]) % 2 == 0:
-        
+
         for i in range(len(w)):
 
             if w.count(w[j]) % 2 == 0:
@@ -21,21 +21,14 @@ def palindrom(word):
                 d = d + 1
 
                 j = j + 1
-            else: 
+            else:
                 print("-")
             break
     else:
-        print("-") 
+        print("-")
 
 
-palindrom('deda')
-    
-    
-        
-        
-
-    
+palindrom('')
 
 
-
-palindrom('ded')
+palindrom('')
